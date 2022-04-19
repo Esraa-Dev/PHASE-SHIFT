@@ -1,0 +1,226 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+header {
+  background-color: black;
+  width: 100%;
+  overflow: hidden;
+  height: 80px;
+  position: fixed;
+}
+header .logo h3 {
+  color: white;
+  text-transform: uppercase;
+  padding-top: 25px;
+  font-size: 20px;
+}
+header .logo {
+  float: left;
+}
+header nav {
+  float: right;
+}
+header nav ul {
+  list-style-type: none;
+ 
+}
+header nav ul li {
+  float: left;
+  padding: 20px;
+}
+header nav ul li a {
+  font-size: 20px;
+  color: #ddd;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: #ccc;
+}
+.about {
+  background-image: url(../images/bg.jpg);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+.about p {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  padding-top: 100px;
+  line-height: 2.1;
+}
+.about button {
+  background-color: #d84780;
+  border: none;
+  text-align: center;
+  width: 200px;
+  height: 80px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 25px;
+  border-radius: 15px;
+}
+.about button:hover {
+  cursor: pointer;
+  background: none;
+  border: 2px solid #d84780;
+}
+.blog {
+  overflow: hidden;
+  padding-bottom: 20px;
+  background-color: #222;
+  height: 1300px;
+  width: 100%;
+  padding-top: 20px;
+}
+.part {
+  background-color: #fff;
+  width: 31%;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.part p {
+  padding: 25px;
+  line-height: 1.7;
+  padding-top: 40px;
+}
+.part img {
+  width: 100%;
+}
+.part button {
+  background-color: #d84780;
+  margin-bottom: 20px;
+  border: none;
+  text-align: center;
+  width: 180px;
+  height: 60px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.part button:hover {
+  cursor: pointer;
+  background: none;
+  border: 2px solid #d84780;
+  color: #000;
+}
+
+.blog .writing {
+  width: 42%;
+  height: 150px;
+  overflow: hidden;
+  float: left;
+  color: #fff;
+  margin: 2%;
+}
+.blog .writing i {
+  width: 50px;
+
+  height: 150px;
+  float: left;
+  padding-right: 20px;
+}
+.blog .writing p {
+  font-family: tahoma;
+  font-size: 20px;
+  color: #888;
+  margin-bottom: 10px;
+}
+/* contact */
+.contact {
+  width: 100%;
+  height: 500px;
+  padding-bottom: 40px;
+  background-color: #d84780;
+}
+.mauris {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}
+.contact h2 {
+  color: #fff;
+  font-size: 30px;
+}
+.contact p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  word-spacing: 10px;
+  font-size: 19px;
+  color: #f3f3f3;
+}
+form input {
+  display: inline-block;
+}
+input {
+  height: 50px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+  width: 100%;
+}
+textarea {
+  width: 100%;
+  border-radius: 10px;
+  outline: 0;
+  padding-left: 10px;
+}
+form input[type="submit"] {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  width: 200px;
+}
+
+input:hover,
+input:focus {
+  border-left: 5px solid #000;
+}
+
+form input[type="submit"]:hover {
+  border: 1px solid black;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  background-color: #000;
+  color: #777;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  display: inline-block;
+  border: 2px solid #777;
+  cursor: pointer;
+  padding: 5px;
+}
+footer {
+  font-size: 20px;
+}
+footer ul li:hover {
+  border: 2px solid #fff;
+}
